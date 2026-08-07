@@ -6,7 +6,6 @@ html, body {
   overflow-x: hidden;
   max-width: 100%;
 }
-
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
