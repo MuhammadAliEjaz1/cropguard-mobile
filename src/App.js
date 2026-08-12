@@ -13,6 +13,7 @@ import DiseaseMap from './pages/DiseaseMap';
 import Weather from './pages/Weather';
 import PestIdentifier from './pages/PestIdentifier';
 import Admin from './pages/Admin';
+import Analytics from './pages/Analytics';
 
 // Makes Android's hardware/on-screen back button navigate back within the
 // app (like a normal back button) instead of closing the whole app. Only
@@ -58,6 +59,7 @@ function App() {
           <Route path="/map" element={<DiseaseMap />} />
           <Route path="/weather" element={<Weather />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/analytics" element={<Analytics />} />
         </Routes>
       </div>
     </Router>
